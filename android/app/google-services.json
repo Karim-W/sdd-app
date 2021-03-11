@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "919085788764",
+    "firebase_url": "https://socialdistancedetector-7a918.firebaseio.com",
+    "project_id": "socialdistancedetector-7a918",
+    "storage_bucket": "socialdistancedetector-7a918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919085788764:android:e66e7511daac71148e4099",
+        "android_client_info": {
+          "package_name": "com.sunflower.SDD"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919085788764-aisua4nr3tikfutgj6bmqoj2nv764le0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5F69MoeKHjpLQCE5sXlX2y3QAcUo9nJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919085788764-aisua4nr3tikfutgj6bmqoj2nv764le0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "919085788764-29sot5m8uofl5jgmc52rgefb06pj2nqk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sunflower.SDD"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

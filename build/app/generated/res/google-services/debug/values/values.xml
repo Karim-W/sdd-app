@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">919085788764-aisua4nr3tikfutgj6bmqoj2nv764le0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://socialdistancedetector-7a918.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">919085788764</string>
+    <string name="google_api_key" translatable="false">AIzaSyC5F69MoeKHjpLQCE5sXlX2y3QAcUo9nJY</string>
+    <string name="google_app_id" translatable="false">1:919085788764:android:e66e7511daac71148e4099</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC5F69MoeKHjpLQCE5sXlX2y3QAcUo9nJY</string>
+    <string name="google_storage_bucket" translatable="false">socialdistancedetector-7a918.appspot.com</string>
+    <string name="project_id" translatable="false">socialdistancedetector-7a918</string>
+</resources>
