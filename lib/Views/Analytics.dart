@@ -291,18 +291,29 @@ class _Analytics extends State<Analytics> {
                             size: touchedIndex == 0 ? 18 : 16,
                             textColor: Colors.white,
                           ),
+                          Text(
+                            "5",
+                            style: TextStyle(color: Colors.white),
+                          ),
                           Spacer(),
                           Indicator(
                             color: Colors.orange[500],
-                            text: "Total Cases  ",
+                            text: "Rest of cases",
                             isSquare: false,
                             size: touchedIndex == 0 ? 18 : 16,
                             textColor: Colors.orange[500],
                           ),
                           Text(
-                            ((todayPortion / (totalCases)) * 100)
-                                .toString()[11],
+                            "6",
                             style: TextStyle(color: Colors.white),
+                          ),
+                          Spacer(),
+                          Text(
+                            "Total Cases: 11",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold),
                           ),
                           Spacer(
                             flex: 20,
@@ -316,32 +327,32 @@ class _Analytics extends State<Analytics> {
               ),
             ),
           ),
-          SliverToBoxAdapter(
-            child: SizedBox(
-              height: MediaQuery.of(context).size.height * 0.35,
-              child: ListView.builder(
-                  itemExtent: MediaQuery.of(context).size.width,
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, index) => Container(
-                        margin: EdgeInsets.all(8.0),
-                        child: Material(
-                            color: Colors.black,
-                            elevation: 22.0,
-                            borderRadius: BorderRadius.circular(24.0),
-                            child: Column(
-                              children: <Widget>[
-                                const SizedBox(
-                                  height: 28,
-                                ),
-                                const SizedBox(
-                                  height: 18,
-                                ),
-                              ],
-                            )),
-                      ),
-                  itemCount: 1),
-            ),
-          ),
+          // SliverToBoxAdapter(
+          //   child: SizedBox(
+          //     height: MediaQuery.of(context).size.height * 0.35,
+          //     child: ListView.builder(
+          //         itemExtent: MediaQuery.of(context).size.width,
+          //         scrollDirection: Axis.horizontal,
+          //         itemBuilder: (context, index) => Container(
+          //               margin: EdgeInsets.all(8.0),
+          //               child: Material(
+          //                   color: Colors.black,
+          //                   elevation: 22.0,
+          //                   borderRadius: BorderRadius.circular(24.0),
+          //                   child: Column(
+          //                     children: <Widget>[
+          //                       const SizedBox(
+          //                         height: 28,
+          //                       ),
+          //                       const SizedBox(
+          //                         height: 18,
+          //                       ),
+          //                     ],
+          //                   )),
+          //             ),
+          //         itemCount: 1),
+          //   ),
+          // ),
         ],
       ),
     );
